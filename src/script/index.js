@@ -54,7 +54,6 @@ function checkMatch(){
     openCards = [];
 
     if(document.querySelectorAll(".boxMatch").length === emojis.length){
-        alert("Você ganhou")
         let win = document.createElement("h2");
         win.classList.add("Win");
         win.innerText = "Você Ganhou";
