@@ -58,7 +58,7 @@ function checkMatch(){
         let win = document.createElement("h2");
         win.classList.add("Win");
         win.innerText = "Você Ganhou";
-        win.style.color = "green";
+        win.style.color = "red";
         game.appendChild(win);
     }
 }
