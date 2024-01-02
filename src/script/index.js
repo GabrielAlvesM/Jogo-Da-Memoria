@@ -33,7 +33,7 @@ for(let i = 0; i < emojis.length; i++){
 
 function handleClick(){
     if(openCards.length < 2){
-        this.classList.add("boxOpen");
+        this.classList.add('boxOpen');
         openCards.push(this);
     }
 
@@ -50,7 +50,7 @@ function checkMatch(){
         openCards[0].classList.remove("boxOpen");
         openCards[1].classList.remove("boxOpen");
     }
-    
+
     openCards = [];
 
     if(document.querySelectorAll(".boxMatch").length === emojis.length){
@@ -62,5 +62,3 @@ function checkMatch(){
         game.appendChild(win);
     }
 }
-
-console.log(openCards)
